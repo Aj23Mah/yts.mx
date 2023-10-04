@@ -1,0 +1,26 @@
+.warning-box {
+  // padding: 40px 150px;
+  width: 1170px;
+  height: 250px;
+  border: 4px solid #6ac045;
+  margin-top: 36px;
+
+  // .warning-box{
+
+  // }
+  .warning-text {
+    background: #000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4px 42px;
+
+    .warning_header{
+        font-size: 44px;
+        font-weight: 600;
+    }
+  }
+}

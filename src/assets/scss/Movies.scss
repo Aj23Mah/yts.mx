@@ -1,0 +1,95 @@
+.popularMovies {
+  height: 100%;
+  width: 1170px;
+  margin-bottom: 24px;
+  border: 1px solid #ee0909;
+}
+.popularMovies-content {
+  height: 400px;
+  width: 100%;
+  border: 1px solid #fbf9f9;
+}
+
+.upComingMovies-section {
+  height: 100%; 
+  width: 100%;
+  background: #1d1d1d;
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  //   border: 1px solid green;
+}
+.upComingMovies {
+  height: 100%;
+  width: 1170px;
+  border: 1px solid #ee0909;
+  margin: auto;
+}
+
+.upcomingMovies-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid #fff;
+}
+
+.movieList-section {
+  height: 100%;
+  width: 100%;
+  background: #1d1d1d;
+  color: #fff;
+  padding: 32px 0;
+  //   border: 1px solid green;
+}
+.movieList {
+  height: 100%;
+  width: 1170px;
+  margin: auto;
+  //   border: 1px solid #ee0909;
+}
+
+.movie-head {
+  font-size: 24px;
+  padding: 8px;
+}
+
+.movieList-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  //   border: 1px solid #fff;
+}
+
+.movie-box {
+  height: 360px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 24px;
+}
+.image-box {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 305px;
+  width: 230px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}

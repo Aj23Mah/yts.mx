@@ -1,0 +1,72 @@
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(60, 60, 60, 0.9), #1d1d1d),
+    url(../images/sweets-cinema-stuff.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: larger;
+  padding: 40px 150px;
+}
+
+.hero_text-area {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1170px;
+  height: 250px;
+  padding: 54px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+
+  h1 {
+    font-size: 44px;
+    font-weight: 700;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  .paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+
+    p {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 4px;
+    }
+
+    .important {
+      color: #428bca;
+      margin: 8px 0;
+    }
+  }
+  .flex {
+    margin-bottom: 16px;
+  }
+  .flex img {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+  }
+  .popular{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .material-symbols-outlined {
+    margin-right: 4px;
+    color: #6ac045;
+  }
+}
+

@@ -1,0 +1,37 @@
+footer{
+    height: 100%;
+    width: 100%;
+    background: #171717;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // border: 1px solid #fff;
+    width: 1170px;
+    padding: 24px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+.flex{
+    display: flex;
+}
+
+.text-base{
+    font-size: 16px;
+}
+.text-lg{
+    font-size: 18px;
+}
+.text-xl{
+    font-size: 20px;
+}
