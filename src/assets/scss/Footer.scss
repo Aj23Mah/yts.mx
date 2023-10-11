@@ -14,13 +14,16 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    // border: 1px solid #fff;
     width: 1170px;
     padding: 24px;
 }
 
-.mb-8{
+
+.mb-2{
     margin-bottom: 8px;
+}
+.mr-2{
+    margin-right: 8px;
 }
 .flex{
     display: flex;
@@ -34,4 +37,17 @@ footer{
 }
 .text-xl{
     font-size: 20px;
+}
+.rounded {
+    border-radius: 16px;
+}
+.bg-4{
+    background: #4cb4fe;
+    transition: ease-in 0.3s;
+    &:hover{
+        background: #0099ff;
+    }
+}
+.p-2{
+    padding: 4px 16px;
 }

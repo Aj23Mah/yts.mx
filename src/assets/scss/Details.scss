@@ -1,0 +1,60 @@
+
+.details-section{
+    height: 100vh;
+    width: 100%;
+    background: #1d1d1d;
+    color: #fff;
+    display: flex;
+    // justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 120px;
+    // border: 2px solid white;
+
+    .image-area{
+        // height: 200px;
+        // background: #fff;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .movie_img{
+        border: 4px solid #fff;
+        margin-bottom: 8px;
+    }
+
+    .similarMovies{
+        width: 240px;
+    }
+}
+
+.fa-heart, .fa-star{
+    font-size: 20px;
+    color: #6ac045;
+    margin-bottom: 4px;
+}
+.fa-imdb{
+    font-size: 30px;
+    color: #000;
+    background: #d4ba34;
+}
+
+
+
+.p{
+    padding: 8px 24px;
+}
+
+.green{
+    background: #6ac045;
+    color: #fff;
+}
+.blue{
+    background: #0bad9f;
+    color: #fff;
+}
+.border{
+    border: 1px solid rgb(66, 60, 60);
+}
+.br{
+    border-radius: 4px;
+}

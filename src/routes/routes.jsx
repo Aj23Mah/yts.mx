@@ -2,7 +2,7 @@ import React from "react";
 
 import Landing from "../pages/Landing";
 import Search from "../pages/Search";
-import Details from "./../pages/Details";
+import Details from "../pages/Details";
 
 export const PRIMARY_ROUTES = [
   { path: "/", element: <Landing /> },
