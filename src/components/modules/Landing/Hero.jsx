@@ -5,25 +5,11 @@ import twitter_logo from "../../../assets/images/twitter.png";
 import telegram_logo from "../../../assets/images/telegram.png";
 import Warning from "./Warning";
 
-// import { APILoadMovies } from "../../../API/movie";
-// import { useNavigate } from "react-router";
-
 import MovieList from "./MovieList";
 import UpcomingMovies from "./UpcomingMovies";
 import PopularMovies from "./PopularMovies";
 
 const Hero = () => {
-  // const [movies, setMovies] = useState([]);
-  // const navigate = useNavigate();
-  // const loadMovies = async () => {
-  //   const res = await APILoadMovies();
-  //   setMovies(res.data.movies);
-  // };
-
-  // useEffect(() => {
-  //   loadMovies();
-  // }, []);
-
   return (
     <section>
       <div className="hero-section">
@@ -76,8 +62,6 @@ const Hero = () => {
         <MovieList />
       </>
     </section>
-
-    
   );
 };
 
